@@ -11,3 +11,5 @@ def makeUpperCase(string):
 
 
 if __name__ == '__main__':
+    print(multiplication(2))
+    print(makeUpperCase("apple"))
