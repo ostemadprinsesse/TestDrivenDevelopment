@@ -1,14 +1,16 @@
 import unittest
 import math
+from app import multiplication
 
-class TestKvadrot(unittest.TestCase):
-    def test_kvadrot(self):
-        self.assertEqual(kvadrot(2), 4)
+
+class TestMultiplication(unittest.TestCase):
+    def test_multiplication(self):
+        self.assertEqual(multiplication(2), 4)
         
-    def test_kvadrot_negativ(self):
-        self.assertEqual(kvadrot(-3), 9)
+    def test_multiplication_negativ(self):
+        self.assertEqual(multiplication(-3), 9)
         
-    def test_kvadrot_zero(self):    
-        self.assertEqual(kvadrot(0), 0)
+    def test_multiplication_zero(self):    
+        self.assertEqual(multiplication(0), 0)
 
 if __name__ == '__main__':    unittest.main()
