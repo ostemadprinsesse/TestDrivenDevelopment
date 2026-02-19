@@ -1,4 +1,5 @@
 import unittest
+from app import makeUpperCase
 
 class TestIsUpperCase(unittest.TestCase):
     def test(self):
